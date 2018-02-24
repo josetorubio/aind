@@ -1,0 +1,27 @@
+STRIPS (Fikes and Nilsson 1971)  
+http://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.pdf
+
+This paper describes a problem solving called STRIPS (STanford Research Institue Problem Solver). It introduces a new way of problem solving introducing The Problem Space which defines a initial world model by a set of well formed formulas (wff), the available operators for this world model and the goal. It also describes the search strategy GPS (General Problem Solver) strategy of extracting "differences" between the present world model and the goal and identifying operators that are "relevant" to reducing these differences. 
+This paper introduced the Problem for state-space search and well formed formulas in AI field, and was the first major planning system. It was designed as the planing component of the software for Shakey robot project a SRI.
+
+
+
+The birth of Prolog, Alain Colmerauer and Philippe Roussel (1992)
+https://web.stanford.edu/class/linguist289/p37-colmerauer.pdf
+
+This paper describes the prolog language beginnings and evolution, and how it passed from a language planed to be used for man-machine communication in natural language using first order logic to a more completed programming language with more flexibility. A contribution to the AI field described in this paper is the creation of a general problem-solving system called Sugiton. 
+
+As a point of union with the logic and search strategies we are studying, it describes the uses of prolog as a logic and knowledge representation tool, and as an example, a problem for flight routes is described and implemented in this language for the first time, contributing to the AI field tipical problem resolution with Prolog programming language.
+
+
+
+Ghallab et al 1998
+http://homepages.inf.ed.ac.uk/mfourman/tools/propplan/pddl.pdf
+
+This paper describes the syntax and semantics of PDDL (Planing Domain Definition Language) This is the language used in this course for describing the initial states, actions and goals. It uses STRIP style actions and conditional effects. 
+PDDL is intended to express the “physics” of a domain, this is, what predicates there are, what actions are possible, what the structure of compounds actions is, and what the effects of actions are. PDDL introduced the as first computer-parsable standarized syntax for representing planning problems in the AI field, and has been used as the standard language for the International Planning Competition since 1998. 
+
+
+
+These three papers show some chronological relationship between them and the progress and how they influenced in the progres of the AI field. 
+With STRIPS wff was introduced as a way of describing the world model. Then prolog added a robust programming lenguage where such models can be represented and solved, and in Ghallab paper, the PDDL is created and adopted as standard as an evolution of the wff  language.
